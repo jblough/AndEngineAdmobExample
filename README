@@ -1,0 +1,7 @@
+A simple example of displaying Admob ads in an AndEngine application
+
+Replace "YOUR ADMOB PUBLISHER ID" in AndroidManifest.xml and "YOUR AD UNIT ID HERE" in main.xml with your Admob ID.
+
+Library dependencies on andengine.jar and GoogleAdMobAdsSdk-X.X.X.jar are also needed to compile this sample.
+
+Much of the code from ScreenAdvertisement.java came from the AndEngine forum post http://www.andengine.org/forums/post6754.html
