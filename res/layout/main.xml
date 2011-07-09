@@ -10,15 +10,15 @@
         android:layout_gravity="center" />
 
     <com.google.ads.AdView 
-        xmlns:myapp="http://schemas.android.com/apk/res/com.josephblough.example"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
         android:id="@+id/game_ad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        myapp:adUnitId="YOUR AD UNIT ID HERE"
-        myapp:adSize="BANNER"
-        myapp:backgroundColor="#000000"
-        myapp:primaryTextColor="#FFFFFF"
-        myapp:secondaryTextColor="#CCCCCC"
+        ads:adUnitId="YOUR AD UNIT ID HERE"
+        ads:adSize="BANNER"
+        ads:backgroundColor="#000000"
+        ads:primaryTextColor="#FFFFFF"
+        ads:secondaryTextColor="#CCCCCC"
         android:layout_gravity="bottom|right"
         android:gravity="bottom|right"
         android:layout_alignParentBottom="true"
